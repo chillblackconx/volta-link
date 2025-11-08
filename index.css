@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root[data-theme="default"] {
+  --color-primary: #4F46E5; /* Indigo 600 */
+  --color-primary-focus: #4338CA; /* Indigo 700 */
+  --color-secondary: #9333EA; /* Purple 600 */
+  --color-neutral: #1E293B; /* Slate 800 */
+  --color-base: #0F172A; /* Slate 900 */
+  --color-base-100: #334155; /* Slate 700 */
+}
+
+:root[data-theme="crimson"] {
+  --color-primary: #DC2626; /* Red 600 */
+  --color-primary-focus: #B91C1C; /* Red 700 */
+  --color-secondary: #F59E0B; /* Amber 500 */
+  --color-neutral: #262626; /* Neutral 800 */
+  --color-base: #171717; /* Neutral 900 */
+  --color-base-100: #404040; /* Neutral 700 */
+}
+
+:root[data-theme="ocean"] {
+  --color-primary: #14B8A6; /* Teal 500 */
+  --color-primary-focus: #0D9488; /* Teal 600 */
+  --color-secondary: #3B82F6; /* Blue 500 */
+  --color-neutral: #1e3a8a; /* Blue 900 */
+  --color-base: #1e293b; /* Slate 800 */
+  --color-base-100: #334155; /* Slate 700 */
+}
+
+:root[data-theme="forest"] {
+  --color-primary: #16A34A; /* Green 600 */
+  --color-primary-focus: #15803D; /* Green 700 */
+  --color-secondary: #CA8A04; /* Yellow 600 */
+  --color-neutral: #3f3f46; /* Zinc 700 */
+  --color-base: #27272a; /* Zinc 800 */
+  --color-base-100: #52525b; /* Zinc 600 */
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
